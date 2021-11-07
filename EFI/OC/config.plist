@@ -70,6 +70,30 @@
                     <key>Path</key>
                     <string>SSDT-TB3.aml</string>
                 </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-ALS0.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>Path</key>
+                    <string>SSDT-BATT-R.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-FANQ.aml</string>
+                </dict>
             </array>
             <key>Delete</key>
             <array>
@@ -433,24 +457,6 @@
                 </dict>
                 <dict>
                     <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>IntelBluetoothFirmware.kext</string>
-                    <key>Comment</key>
-                    <string>V2.0.1 | IntelBluetoothFirmware.kext</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/IntelBluetoothFirmware</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
                     <string>x86_64</string>
                     <key>BundlePath</key>
                     <string>BlueToolFixup.kext</string>
@@ -460,6 +466,24 @@
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/BlueToolFixup</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>IntelBluetoothFirmware.kext</string>
+                    <key>Comment</key>
+                    <string>V2.0.1 | IntelBluetoothFirmware.kext</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/IntelBluetoothFirmware</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -748,6 +772,24 @@
                     <true/>
                     <key>ExecutablePath</key>
                     <string></string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>x86_64</string>
+                    <key>BundlePath</key>
+                    <string>MSIFanService.kext</string>
+                    <key>Comment</key>
+                    <string>V1.0.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/MSIFanService</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -1098,9 +1140,9 @@
                 <key>PickerAudioAssist</key>
                 <false/>
                 <key>PickerMode</key>
-                <string>Builtin</string>
+                <string>External</string>
                 <key>PickerVariant</key>
-                <string>Auto</string>
+                <string>Acidanthera\GoldenGate</string>
                 <key>PollAppleHotKeys</key>
                 <false/>
                 <key>ShowPicker</key>
@@ -1113,7 +1155,7 @@
             <key>Debug</key>
             <dict>
                 <key>AppleDebug</key>
-                <true/>
+                <false/>
                 <key>ApplePanic</key>
                 <true/>
                 <key>DisableWatchDog</key>
@@ -1127,7 +1169,7 @@
                 <key>SysReport</key>
                 <false/>
                 <key>Target</key>
-                <integer>67</integer>
+                <integer>3</integer>
             </dict>
             <key>Entries</key>
             <array>
@@ -1250,7 +1292,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>-igfxmpc -igfxblr agdpmod=vit9696 -lilubetaall</string>
+                    <string></string>
                     <key>csr-active-config</key>
                     <data>5wMAAA==</data>
                     <key>prev-lang:kbd</key>
@@ -1436,7 +1478,7 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>Path</key>
                     <string>OpenCanopy.efi</string>
                 </dict>
