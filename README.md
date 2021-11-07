@@ -1,8 +1,6 @@
 # GS65-9SD-Hackintosh
 
-基于 `OpenCore 0.7.6`，已在 `Big Sur 11.6.1` 上测试通过
-
-未测试 `Monterey`，盲目升级可能会造成蓝牙无法使用
+基于 `OpenCore 0.7.6`，已在 `Monterey` 上测试通过
 
 使用前，请自己重新生成三码
 
